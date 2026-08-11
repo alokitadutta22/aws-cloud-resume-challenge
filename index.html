@@ -1,0 +1,378 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alokita Dutta | Full-Stack Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-name">Alokita Dutta</div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#leadership">Leadership</a></li>
+        <li><a href="#education">Education</a></li>
+      </ul>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        ☀️
+      </button>
+    </nav>
+
+    <!-- ================= HERO ================= -->
+    <header id="home" class="hero">
+      <div class="avatar">AD</div>
+      <!-- Swap for a real photo later:
+         <img class="avatar" src="assets/images/me.jpg" alt="Alokita Dutta" /> -->
+
+      <h1>Alokita Dutta</h1>
+      <p class="role-line">
+        Full-Stack Developer <span>·</span> AI &amp; ML Enthusiast
+      </p>
+      <p class="stack-line">
+        React &nbsp;•&nbsp; Node.js &nbsp;•&nbsp; JavaScript &nbsp;•&nbsp; REST
+        APIs &nbsp;•&nbsp; Web Applications
+      </p>
+      <p class="location-line">Kolkata, West Bengal, India</p>
+
+      <div class="socials">
+        <a
+          href="https://github.com/alokitadutta22"
+          target="_blank"
+          rel="noopener"
+          aria-label="GitHub"
+          ><svg viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M12 0C5.37 0 0 5.5 0 12.3c0 5.44 3.44 10.05 8.21 11.68.6.11.82-.27.82-.6 0-.29-.01-1.06-.02-2.08-3.34.75-4.04-1.66-4.04-1.66-.55-1.43-1.34-1.82-1.34-1.82-1.09-.77.08-.75.08-.75 1.21.09 1.85 1.28 1.85 1.28 1.07 1.87 2.81 1.33 3.5 1.02.11-.79.42-1.33.76-1.64-2.67-.31-5.47-1.37-5.47-6.1 0-1.35.47-2.45 1.24-3.31-.12-.31-.54-1.57.12-3.28 0 0 1.01-.33 3.3 1.27a11.3 11.3 0 0 1 6 0c2.29-1.6 3.3-1.27 3.3-1.27.66 1.71.24 2.97.12 3.28.77.86 1.24 1.96 1.24 3.31 0 4.74-2.81 5.78-5.49 6.09.43.38.81 1.14.81 2.3 0 1.66-.02 2.99-.02 3.4 0 .33.22.72.83.6C20.57 22.34 24 17.73 24 12.3 24 5.5 18.63 0 12 0z"
+            /></svg
+        ></a>
+        <a
+          href="https://linkedin.com/in/alokitadutta"
+          target="_blank"
+          rel="noopener"
+          aria-label="LinkedIn"
+          ><svg viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.03-1.85-3.03-1.85 0-2.14 1.45-2.14 2.94v5.66H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.8 0 0 .78 0 1.75v20.5C0 23.22.8 24 1.77 24h20.45c.98 0 1.78-.78 1.78-1.75V1.75C24 .78 23.2 0 22.22 0z"
+            /></svg
+        ></a>
+        <a
+          href="https://instagram.com/alokitadutta22"
+          target="_blank"
+          rel="noopener"
+          aria-label="Instagram"
+          ><svg viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M12 2.16c3.2 0 3.58.01 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.42.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.42.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.8-.25-2.23-.41a3.72 3.72 0 0 1-1.38-.9 3.72 3.72 0 0 1-.9-1.38c-.16-.42-.36-1.06-.41-2.23-.06-1.27-.07-1.65-.07-4.85s.01-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.42-.16 1.06-.36 2.23-.41 1.27-.06 1.65-.07 4.85-.07M12 0C8.74 0 8.33.01 7.05.07 5.78.13 4.9.33 4.14.63c-.79.31-1.46.72-2.13 1.39A5.9 5.9 0 0 0 .62 4.14c-.3.76-.5 1.64-.56 2.91C0 8.33 0 8.74 0 12s.01 3.67.07 4.95c.06 1.27.26 2.15.56 2.91.31.79.72 1.46 1.39 2.13a5.9 5.9 0 0 0 2.13 1.39c.76.3 1.64.5 2.91.56C8.33 24 8.74 24 12 24s3.67-.01 4.95-.07c1.27-.06 2.15-.26 2.91-.56a5.9 5.9 0 0 0 2.13-1.39 5.9 5.9 0 0 0 1.39-2.13c.3-.76.5-1.64.56-2.91.06-1.28.07-1.69.07-4.95s-.01-3.67-.07-4.95c-.06-1.27-.26-2.15-.56-2.91a5.9 5.9 0 0 0-1.39-2.13A5.9 5.9 0 0 0 19.86.63c-.76-.3-1.64-.5-2.91-.56C15.67.01 15.26 0 12 0zm0 5.84A6.16 6.16 0 1 0 12 18.16 6.16 6.16 0 0 0 12 5.84zm0 10.16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.4-10.4a1.44 1.44 0 1 1-2.88 0 1.44 1.44 0 0 1 2.88 0z"
+            /></svg
+        ></a>
+        <a href="mailto:alokitadutta497@gmail.com" aria-label="Email"
+          ><svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="M4 4h16v16H4z" />
+            <path d="M22 6l-10 7L2 6" /></svg
+        ></a>
+      </div>
+
+      <a
+        href="assets/Alokita_Dutta_Resume.pdf"
+        target="_blank"
+        class="resume-btn"
+        download
+        >📄 Resume</a
+      >
+    </header>
+
+    <!-- ================= ABOUT ================= -->
+    <section id="about" class="section">
+      <p class="eyebrow">About</p>
+      <h2>Professional Summary</h2>
+      <p class="summary-text">
+        Aspiring Full-Stack Developer and AI &amp; ML Enthusiast with hands-on
+        experience across the full software development lifecycle — requirement
+        analysis, design, implementation, and testing — built through
+        independent full-stack and AI-driven projects. Foundation in Data
+        Structures and Algorithms, core computer science principles,
+        authentication systems, API development, cloud deployment, and
+        real-world project implementation. Comfortable owning a problem
+        end-to-end and communicating technical decisions clearly.
+      </p>
+    </section>
+
+    <!-- ================= SKILLS ================= -->
+    <section id="skills" class="section">
+      <p class="eyebrow">Skills</p>
+      <h2>Technical Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h3>Languages</h3>
+          <div class="chips">
+            <span class="chip">Java</span>
+            <span class="chip">C (working knowledge)</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3>AI / ML</h3>
+          <div class="chips">
+            <span class="chip">LangChain</span>
+            <span class="chip">RAG</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3>Core Concepts</h3>
+          <div class="chips">
+            <span class="chip">DSA</span>
+            <span class="chip">OOP</span>
+            <span class="chip">DBMS</span>
+            <span class="chip">OS</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3>Tools &amp; Technologies</h3>
+          <div class="chips">
+            <span class="chip">Firebase Auth</span>
+            <span class="chip">Google OAuth</span>
+            <span class="chip">AWS S3</span>
+            <span class="chip">CloudFront</span>
+            <span class="chip">Git</span>
+            <span class="chip">GitHub</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= EXPERIENCE ================= -->
+    <section id="experience" class="section">
+      <p class="eyebrow">Experience</p>
+      <h2>Professional Experience</h2>
+
+      <div class="exp-card">
+        <div class="exp-head">
+          <div>
+            <h3>Software Engineering Intern</h3>
+            <p class="exp-sub">
+              Indian Oil Corporation Ltd. (IOCL), Haldia Refinery · On Site
+            </p>
+          </div>
+          <span class="exp-date">June 2026 – July 2026</span>
+        </div>
+        <ul>
+          <li>
+            Built an end-to-end AI-powered Procurement Audit Tool from scratch,
+            designing the full-stack architecture (Python backend + Streamlit
+            frontend), integrating LLM APIs, and delivering a working demo to
+            the procurement division — directly reducing manual
+            vendor-verification effort by eliminating page-by-page document
+            review.
+          </li>
+          <li>
+            Gained hands-on experience applying AI to enterprise workflows —
+            learned how Retrieval-Augmented Generation, vector embeddings, and
+            large language models can be adapted to solve government procurement
+            problems, including handling scanned PDFs, OCR noise, regulatory
+            compliance rules, and multi-vendor submissions at scale.
+          </li>
+        </ul>
+      </div>
+
+      <div class="exp-card">
+        <div class="exp-head">
+          <div>
+            <h3>HealthTech SaaS Software Developer Intern</h3>
+            <p class="exp-sub">Iquester Solutions LLP · Remote</p>
+          </div>
+          <span class="exp-date">Dec 2025 – Feb 2026</span>
+        </div>
+        <ul>
+          <li>
+            Built an interactive analytics dashboard in React with dynamic data
+            visualization for real-time user metric tracking and psychometric
+            scoring workflows.
+          </li>
+          <li>
+            Implemented conversational memory in a wellness chatbot to maintain
+            session context — directly informing the AI companion architecture
+            later built in Mansik.
+          </li>
+          <li>
+            Developed modular frontend architecture with Firebase Auth,
+            protected routing, and responsive UI components across a HealthTech
+            SaaS platform.
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ================= PROJECTS ================= -->
+    <section id="projects" class="section">
+      <p class="eyebrow">Key Projects</p>
+      <h2>Projects</h2>
+
+      <div class="project-card">
+        <h3>Argus Bid AI — Tender Audit &amp; Compliance Platform</h3>
+        <div class="chips">
+          <span class="chip">Python</span>
+          <span class="chip">Streamlit</span>
+          <span class="chip">LangChain</span>
+          <span class="chip">ChromaDB</span>
+          <span class="chip">RAG</span>
+        </div>
+        <ul>
+          <li>
+            Architected a Retrieval-Augmented Generation (RAG) compliance engine
+            in Python that automated vendor bid audits for PSU procurement,
+            replacing a fully manual document-review process for multi-crore
+            government tenders.
+          </li>
+          <li>
+            Designed a Parent-Child chunked ChromaDB vector store with a Hybrid
+            Regex-First + RAG-LLM-Fallback compliance engine — regex instantly
+            validates known identifiers (PAN, GSTIN, GeM ID), while unresolved
+            cases fall back to Dense + BM25 retrieval merged via Reciprocal Rank
+            Fusion.
+          </li>
+          <li>
+            Built a Dynamic Page Scoring Resolver that penalizes
+            Table-of-Contents pages and rewards pages matching actual regulatory
+            citation.
+          </li>
+          <li>
+            Implemented a 4-layer Waterfall OCR stack (pdfplumber → pdfminer →
+            Tesseract → GPT-4o LLM) to handle both digital and scanned
+            submissions.
+          </li>
+          <li>
+            Delivered a production-grade Streamlit dashboard featuring a PSU
+            Comparative Statement Matrix, per-vendor compliance scorecards, XAI
+            narrative generation explaining every Pass/Fail verdict, and a
+            Visual Document Viewer with exact page-level evidence links.
+          </li>
+        </ul>
+      </div>
+
+      <div class="project-card">
+        <h3>Mansik — Mental Wellness Platform</h3>
+        <div class="chips">
+          <span class="chip">React.js</span>
+          <span class="chip">Express</span>
+          <span class="chip">Firebase Auth</span>
+          <span class="chip">Recharts</span>
+          <span class="chip">Gemini</span>
+          <span class="chip">AWS S3</span>
+          <span class="chip">CloudFront</span>
+          <span class="chip">Lambda</span>
+        </div>
+        <ul>
+          <li>
+            Built Mansik, a full-stack mental wellness platform using React.js
+            and Firebase Auth, featuring a PSS-14 psychometric assessment engine
+            that scores stress (0–56) and classifies severity into Low,
+            Moderate, or High.
+          </li>
+          <li>
+            Designed a lifestyle activity tracker across four wellness
+            categories, linking daily activity to an assessment subscale score
+            to generate personalized wellness recommendations.
+          </li>
+          <li>
+            Engineered "Manas," a real-time AI companion powered by the Google
+            Gemini API via a serverless AWS Lambda + Express backend, with local
+            sentiment analysis that silently triggers guardian email alerts (via
+            Nodemailer/Gmail) at a crisis threshold — without exposing
+            conversation content.
+          </li>
+          <li>
+            Deployed on AWS S3 + CloudFront for CDN delivery with the backend
+            exposed via API Gateway, using Server-Sent Events (SSE) listeners
+            for real-time sync of all user data — assessments, activities,
+            persona, and chat history.
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ================= LEADERSHIP ================= -->
+    <section id="leadership" class="section">
+      <p class="eyebrow">Programs &amp; Leadership</p>
+      <h2>Programs &amp; Leadership Experience</h2>
+
+      <div class="leader-grid">
+        <div class="leader-card">
+          <span class="exp-date">May 2025 – June 2025</span>
+          <h3>Acmegrade</h3>
+          <p>
+            Built responsive small applications using HTML, CSS, JavaScript, and
+            React.
+          </p>
+        </div>
+        <div class="leader-card">
+          <span class="exp-date">June 2024</span>
+          <h3>National University of Singapore (NUS)</h3>
+          <p>
+            Study Abroad Program — completed intensive training in AI, IoT, and
+            Data Analytics.
+          </p>
+        </div>
+        <div class="leader-card">
+          <span class="exp-date">Sept 2025</span>
+          <h3>IEM Hackoasis 2.0</h3>
+          <p>
+            Student Coordinator — organized and coordinated hackathon
+            operations, managing participants and logistics.
+          </p>
+        </div>
+        <div class="leader-card">
+          <span class="exp-date">April 2026</span>
+          <h3>Dot &amp; Key — Exclusive Event</h3>
+          <p>
+            Selected as one of only 8 crew members nationwide for Dot &amp;
+            Key's exclusive new-launch event — got hands-on access to the
+            brand's formulation lab, a content shoot, and a direct discussion
+            with the CEO on product development.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= EDUCATION ================= -->
+    <section id="education" class="section">
+      <p class="eyebrow">Education</p>
+      <h2>Education</h2>
+      <div class="edu-card">
+        <h3>Institute of Engineering and Management (IEM), Kolkata</h3>
+        <p>
+          B.Tech — Computer Science and Engineering | 2023 – 2027 | CGPA: 8.1
+        </p>
+      </div>
+      <div class="edu-card">
+        <h3>National Gems Higher Secondary School, Kolkata</h3>
+        <p>ICSE: 93.5% &nbsp;|&nbsp; ISC: 85.5%</p>
+      </div>
+
+      <p class="eyebrow" style="margin-top: 40px">Languages</p>
+      <div class="chips">
+        <span class="chip">English (C2)</span>
+        <span class="chip">Hindi (C1)</span>
+        <span class="chip">Bengali (Native)</span>
+      </div>
+    </section>
+
+    <footer>built with ♥ Alokita | views: <span id="views">...</span></footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
